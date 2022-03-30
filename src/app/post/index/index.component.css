@@ -1,0 +1,53 @@
+/* css for sidebar div */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 20%;
+}
+/* container */
+.container {
+  width: 80%
+}
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+/* css for buttons on index page */
+.btn-primary {
+  background-color: blue;
+}
+.btn-primary:hover {
+  background-color: darkblue;
+}
+.btn-danger {
+  background-color: red;
+}
+.btn-danger:hover {
+  background-color: darkred;
+}
+.btn-info {
+  background-color: lightblue;
+  color:white; 
+  margin: 10px 10px 0 10px;
+  width: auto;
+}
+.btn-info:hover {
+  background-color:aqua;
+}
+.main-button {
+  margin-left: 5px;
+  margin-right: 2px;
+}
+
+/* css for created divs on index page */
+.topOfPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.userProfile {
+  border: 2px solid blueviolet;
+  padding: 5px;
+  border-radius: 15px;
+}

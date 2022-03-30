@@ -1,0 +1,26 @@
+<body>
+<div class="container">
+  <!-- <form [formGroup]="form" (ngSubmit)="submit()"> -->
+  <div class="form form-group">
+    <h4>Login</h4>
+    <label for="userName">Username:</label>
+    <input 
+        formControlName="title"
+        id="userName" 
+        type="text" 
+        class="form-control"
+        placeholder="Ex: Tiredperson74" required>
+        <div *ngIf="f['userName'].touched && f['userName'].invalid" class="alert alert-danger">
+          <div *ngIf="f['userName'].errors && f['userName'].errors['required']">Title is required.
+          </div>
+        </div>
+      <a href="#" routerLink="../../post"><button
+      class="btn btn-primary" id="button"
+      type="submit">Click here to Login</button>
+      </a>
+      <hr>
+      <a href="#" routerLink="/login/new-user"class=" btn btn-link">Click Here To Sign Up</a>
+    </div>
+    <!-- </form> -->
+</div>
+</body>

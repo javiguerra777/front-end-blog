@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="buttonDiv">
+  <a href="#" routerLink="../../post/index" class="btn btn-primary">Back</a>
+</div>
+<div class="profileDiv">
+  <h1>Here is your information</h1>
+  <form formControlName="currentInfo"
+  id="currentInfo" 
+  type="text"
+  class="form-control">
+    <label for="username">Current Username:</label>
+    <p>{{user.userName}}</p>
+    <label for="firstname">Current First Name:</label>
+    <p>{{user.firstName}}</p>
+    <label for="lastname">Current Last Name:</label>
+    <p>{{user.lastName}}</p>
+  </form>
+  <!-- <h2>Change your information below</h2>
+  <form formControlName="currentInfo"
+  id="currentInfo" 
+  type="text"
+  class="form-control">
+    <label for="username">New Username:</label>
+    <input type="text">
+    <label for="firstname">New First Name:</label>
+    <input type="text">
+    <label for="lastname"> New Last Name:</label>
+    <input type="text">
+  </form> -->
+</div>
+</div>
+

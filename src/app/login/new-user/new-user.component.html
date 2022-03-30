@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="buttonDiv">
+    <a href="#" routerLink="../main-login-page" class = 'btn btn-dark button-div'>Go Back</a>
+  </div>
+  <!-- <form [formGroup]="form" (ngSubmit)="submit()"> -->
+  <div class="form-group form">
+    <h4>Create a new profile</h4>
+    <label for="title">Enter a username:</label>
+    <input 
+        formControlName="title"
+        id="title" 
+        type="text" 
+        class="form-control"
+        placeholder="Ex: Tiredperson74" required>
+        <a href="#" routerLink="../../post">
+          <button
+              type="submit"
+              class="btn btn-primary" id="button"> Go to dashboard</button>
+            </a>
+  </div>
+  
+<!-- </form> -->
+</div>

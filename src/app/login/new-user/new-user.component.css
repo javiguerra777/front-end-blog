@@ -1,0 +1,24 @@
+input {
+  margin: 0 0 1em 0;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.buttonDiv{ 
+  margin-top: 7px;
+  margin-right: 20px;
+}
+.form {
+  background-color: whitesmoke;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5em;
+  border-radius: 2em;
+}
+#button {
+  width: auto;
+  margin-left: 15%;
+}
